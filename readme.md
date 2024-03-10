@@ -7,7 +7,7 @@ Cinder ist eine kommerzielle App für Mobile-Food-Dating. Das heißt, die Suche 
 Clone das Repository.
 
 ```shell
-git clone https://github.com/Mjd2024/test.git
+git clone https://github.com/Mjd2024/-Cinder.git
 ```
 
 Wechsel in den runtergeladenen Ordner.
