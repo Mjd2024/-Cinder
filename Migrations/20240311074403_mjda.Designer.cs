@@ -12,8 +12,8 @@ using _Cinder;
 namespace _Cinder.Migrations
 {
     [DbContext(typeof(UserContext))]
-    [Migration("20240310231802_mjd")]
-    partial class mjd
+    [Migration("20240311074403_mjda")]
+    partial class mjda
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

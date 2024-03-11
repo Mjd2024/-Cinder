@@ -1,5 +1,4 @@
 using _Cinder;
-using Cinder;
 using Microsoft.EntityFrameworkCore;
 using MySqlConnector;
 

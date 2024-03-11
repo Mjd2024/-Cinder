@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace _Cinder.Migrations
 {
     /// <inheritdoc />
-    public partial class mjd : Migration
+    public partial class mjda : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
