@@ -12,7 +12,7 @@ using _Cinder;
 namespace _Cinder.Migrations
 {
     [DbContext(typeof(UserContext))]
-    [Migration("20240311074403_mjda")]
+    [Migration("20240311144816_mjda")]
     partial class mjda
     {
         /// <inheritdoc />
