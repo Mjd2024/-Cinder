@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Cinder.Controllers
+namespace _Cinder.Controllers
 {
   // Route: localhost/user
   [Route("[controller]")]
@@ -16,8 +16,10 @@ namespace Cinder.Controllers
     {
       _context = context;
     }
-    // GET all users
-    // Route: localhost/user
+    /// <summary>
+    /// Returns a list of all Users.
+    /// </summary>
+    /// <returns>List of Users</returns>
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
